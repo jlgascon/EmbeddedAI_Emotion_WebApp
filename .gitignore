@@ -121,6 +121,8 @@ celerybeat.pid
 
 # Environments
 ibmvenv/
+
+
 .env
 .venv
 env/
