@@ -4,6 +4,7 @@ import requests
 def emotion_detector(text_to_analyze):
 
     ''' Uses request and POST to pass analysis text to WATSON API endpoint for service'''
+    ##IMPORTANT --> Need to revise API to your active resource as outside Theia cloud
 
     url = 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
     header = {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
