@@ -1,6 +1,8 @@
 
 import unittest
-from emotion_detection import emotion_detector
+
+## Need to package before can import 
+#from emotion_detection import emotion_detector
 
 class TestEmotionDetector(unittest.TestCase):
 
